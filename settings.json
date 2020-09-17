@@ -1,0 +1,101 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{f9a71e31-be1d-417e-9de0-354d9cb3707d}",
+    "tabWidthMode": "equal",
+    "initialRows": 30,
+    "initialCols": 100,
+    "profiles": [
+        {
+            "guid": "{f9a71e31-be1d-417e-9de0-354d9cb3707d}",
+            "name": "Linux SSH",
+            "commandline": "ssh coffee@coffee",
+            "tabTitle": "Linux SSH", 
+            "cursorShape": "underscore",
+            "icon": "ms-appdata:///local/img/pingu.png",
+            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageStretchMode": "none",
+            "colorScheme": "CoffeeMood",
+            "fontFace": "Cascadia Code"            
+        },
+        {
+            "guid": "{78b4b215-5722-447b-8b7e-093f96493df2}",
+            "name": "Git Bash",
+            "commandline": "\"%PROGRAMFILES%\\git\\usr\\bin\\bash.exe\" -i -l",
+            "cursorShape": "underscore",
+            "tabTitle": "Git Bash",
+            "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
+            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageStretchMode": "none",
+            "colorScheme": "CoffeeMood",
+            "fontFace": "Cascadia Code",
+            "startingDirectory": "c:/"
+        },
+        {
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "CMD",
+            "commandline": "cmd.exe",
+            "cursorShape": "underscore",
+            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageStretchMode": "none",
+            "colorScheme": "CoffeeMood",
+            "fontFace": "Cascadia Code",
+            "startingDirectory": "c:/"
+        },
+        {
+            "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+            "name": "PowerShell Core",
+            "source": "Windows.Terminal.PowershellCore",
+            "cursorShape": "underscore",
+            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageStretchMode": "none",
+            "colorScheme": "CoffeeMood",
+            "fontFace": "Cascadia Code",
+            "startingDirectory": "c:/",
+        },
+        {
+            "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+            "name": "Azure Cloud Shell",
+            "source": "Windows.Terminal.Azure",
+            "cursorShape": "underscore",
+            "tabTitle": "Cloud Shell",
+            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageStretchMode": "none",
+            "colorScheme": "CoffeeMood",
+            "fontFace": "Cascadia Code",
+            "startingDirectory": "c:/"
+        }
+        
+    ],
+    "schemes": [
+        {
+        "name": "CoffeeMood",
+            "background": "#ffffff", //background color
+                "black": "#c31a1a",
+                "blue": "#579BD5",
+                "brightBlack": "#797979",
+                "brightBlue": "#9CDCFE",
+                "brightCyan": "#2BC4E2",
+                "brightGreen": "#9CDCFE",
+                "brightPurple": "#9CDCFE",
+                "brightRed": "#e90202",
+                "brightWhite": "#ffffff",
+                "brightYellow": "#ebd511",
+                
+                "foreground": "#863b10", //teh main text color
+                    "cyan": "#da7314",
+                    "green": "#cc7728",
+                    "purple": "#714896",
+                    "red": "#E92888",
+                    "white": "#6e0707",
+                    "yellow": "#CE9178"
+        }
+    ],
+    "keybindings": []
+}
