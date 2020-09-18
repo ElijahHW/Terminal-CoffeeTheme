@@ -10,6 +10,10 @@ To make this your default windows terminal schema you need to do the following:
 5. Make Coffee ☕
 
 
+# SSH as default Terminal
+1. Change line 5: "defaultProfile", to the guid of the SSH-profile.
+2. Change line 25: "commandLine", to your spesific ssh connection.
+3. Re-launch the WindowsTerminal
 
 
 | Documentation: https://docs.microsoft.com/en-us/windows/terminal/
