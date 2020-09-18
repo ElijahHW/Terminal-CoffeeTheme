@@ -16,5 +16,8 @@ To make this your default windows terminal schema you need to do the following:
 3. Re-launch the WindowsTerminal
 
 
+
+#
+| Special thanks to hoppip for the GIF: https://hoppip.tumblr.com/post/83110954053
 | Documentation: https://docs.microsoft.com/en-us/windows/terminal/
 
