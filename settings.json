@@ -2,15 +2,27 @@
 // For documentation on these settings, see: https://aka.ms/terminal-documentation
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "defaultProfile": "{f9a71e31-be1d-417e-9de0-354d9cb3707d}",
+    "defaultProfile": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
     "tabWidthMode": "equal",
     "initialRows": 30,
     "initialCols": 100,
     "profiles": [
         {
+            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+            "name": "CMD",
+            "commandline": "cmd.exe",
+            "cursorShape": "underscore",
+            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
+            "backgroundImageAlignment": "bottomRight",
+            "backgroundImageStretchMode": "none",
+            "colorScheme": "CoffeeMood",
+            "fontFace": "Cascadia Code",
+            "startingDirectory": "c:/"
+        },
+        {
             "guid": "{f9a71e31-be1d-417e-9de0-354d9cb3707d}",
             "name": "Linux SSH",
-            "commandline": "ssh coffee@coffee",
+            "commandline": "ssh -p 22 coffee@coffee",
             "tabTitle": "Linux SSH", 
             "cursorShape": "underscore",
             "icon": "ms-appdata:///local/img/pingu.png",
@@ -27,18 +39,6 @@
             "cursorShape": "underscore",
             "tabTitle": "Git Bash",
             "icon": "%PROGRAMFILES%\\git\\mingw64\\share\\git\\git-for-windows.ico",
-            "backgroundImage": "ms-appdata:///local/img/giphy.gif",
-            "backgroundImageAlignment": "bottomRight",
-            "backgroundImageStretchMode": "none",
-            "colorScheme": "CoffeeMood",
-            "fontFace": "Cascadia Code",
-            "startingDirectory": "c:/"
-        },
-        {
-            "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-            "name": "CMD",
-            "commandline": "cmd.exe",
-            "cursorShape": "underscore",
             "backgroundImage": "ms-appdata:///local/img/giphy.gif",
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageStretchMode": "none",
