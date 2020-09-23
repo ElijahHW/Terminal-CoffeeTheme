@@ -1,4 +1,7 @@
  # CoffeeMood-WindowsTerminal ☕
+![Alt text](demo.png)
+
+
 Windows Terminal Schema for those who enjoy the colors of coffee ✨
 
 To make this your default windows terminal schema you need to do the following:
