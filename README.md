@@ -1,4 +1,4 @@
- # CoffeeMood-WindowsTerminal ☕
+ # CoffeeMood | Theme for Windows Terminal☕
 ![Alt text](demo.png)
 
 
